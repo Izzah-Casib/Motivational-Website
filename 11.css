@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: White;
+    color: Black;
+}
+
+.banner {
+    background-color: LightBlue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.signup {
+    background-color: White;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.signup p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signup-form {
+    background-color: White;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.signup-form input {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signup-form button {
+    background-color: LightBlue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.signup-form button:hover {
+    background-color: Blue;
+}
+
+.signin-link {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.signin-link a {
+    color: Purple;
+    text-decoration: none;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+	color: Red;
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: White;
+    color: Black;
+}
+
+.banner {
+    background-color: LightBlue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.video-section {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: White;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: Black;
+}
+
+.video-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: White;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        width: 90%;
+        height: 300px;
+    }
+}
